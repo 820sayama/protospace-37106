@@ -8,7 +8,7 @@
      </a>
     </span>
       <%# 部分テンプレートでフォームを表示する %>
-      <%= render partial: 'prototype', collection: @prototypes %>
+      <%= render partial: 'form', locals: { prototype: @prototype } %>
     </div>
   </div>
 </div>
